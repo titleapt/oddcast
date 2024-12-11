@@ -12,7 +12,7 @@ class ArticlesController < ApplicationController
 
   # GET /articles/new
   def new
-    @article = Article.new
+
   end
 
   # GET /articles/1/edit
@@ -65,6 +65,6 @@ class ArticlesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def article_params
-      params.expect(article: [ :title, :description, :image_url ])
+      params.require(:article).permit(:image_url, content_attributes: [ :title, :description ])
     end
 end

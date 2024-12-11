@@ -13,8 +13,8 @@ class Admin::ArticlesController < ApplicationController
   # GET /admin/articles/new
   def new
     @article = Article.new
+    @article.build_content
   end
-
   # GET /admin/articles/1/edit
   def edit
   end
@@ -65,6 +65,6 @@ class Admin::ArticlesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def article_params
-      params.fetch(:article, {})
+      params.require(:article).permit(:image_url, content_attributes: [ :title, :description ])
     end
 end

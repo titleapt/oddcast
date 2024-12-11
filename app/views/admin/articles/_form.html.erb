@@ -9,7 +9,22 @@
         <% end %>
       </ul>
     </div>
-  <% end %>
+    <% end %>
+    <%= form.fields_for :content do |content| %>
+      <div>
+        <%= content.label :title, style: "display: block" %>
+        <%= content.text_field :title %>
+      </div>
+  
+      <div>
+        <%= content.label :description, style: "display: block" %>
+        <%= content.textarea :description %>
+      </div>
+    <% end %>
+      <div>
+        <%= form.label :image_url, style: "display: block" %>
+        <%= form.text_field :image_url %>
+      </div>
 
   <div class="inline">
     <%= form.submit class: "rounded-lg py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer" %>
