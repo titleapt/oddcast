@@ -1,6 +1,5 @@
 class Admin::ArticlesController < ApplicationController
   before_action :set_article, only: %i[ show edit update destroy ]
-
   # GET /admin/articles or /admin/articles.json
   def index
     @articles = Article.all
