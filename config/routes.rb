@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "movie/index"
   namespace :admin do
     resources :articles
     resources :videos
