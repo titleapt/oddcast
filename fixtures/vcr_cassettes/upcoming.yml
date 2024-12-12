@@ -1,0 +1,116 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://moviesdatabase.p.rapidapi.com/titles/x/upcoming
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - moviesdatabase.p.rapidapi.com
+      X-Rapidapi-Key:
+      - a6ee17a7fcmshf761bb4c7b31ce4p1f5232jsnd5fcb729db65
+      X-Rapidapi-Host:
+      - moviesdatabase.p.rapidapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 12 Dec 2024 04:39:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '10059'
+      Connection:
+      - keep-alive
+      Etag:
+      - W/"274b-AXai3CWTuc96FO5Avl9wsK86JzY"
+      Expect-Ct:
+      - max-age=0
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Content-Security-Policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - no-referrer
+      X-Xss-Protection:
+      - '0'
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Ratelimit-Rapid-Free-Plans-Hard-Limit-Limit:
+      - '500000'
+      X-Ratelimit-Rapid-Free-Plans-Hard-Limit-Remaining:
+      - '499996'
+      X-Ratelimit-Rapid-Free-Plans-Hard-Limit-Reset:
+      - '2672433'
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Rapidapi-Region:
+      - AWS - ap-southeast-1
+      X-Rapidapi-Request-Id:
+      - c93048fce6fdadf7581d3cfb624587382f80bcc95c1012c845c8e57ca8bc491d
+    body:
+      encoding: UTF-8
+      string: '{"page":1,"next":"/titles/x/upcoming?page=2","entries":10,"results":[{"_id":"61e58c6aef99b1c54343e375","id":"tt10209920","primaryImage":{"id":"rm882431489","width":8200,"height":12300,"url":"https://m.media-amazon.com/images/M/MV5BM2JkMzk2YTQtYmY5Ni00NGRiLTg0OWQtZTViNTdmZjIyZTY5XkEyXkFqcGc@._V1_.jpg","caption":{"plainText":"Alien
+        Wars: Judgement Day (2024)","__typename":"Markdown"},"__typename":"Image"},"titleType":{"displayableProperty":{"value":{"plainText":"","__typename":"Markdown"},"__typename":"DisplayableTitleTypeProperty"},"text":"Movie","id":"movie","isSeries":false,"isEpisode":false,"categories":[{"value":"movie","__typename":"TitleTypeCategory"}],"canHaveEpisodes":false,"__typename":"TitleType"},"titleText":{"text":"Alien
+        Wars: Judgement Day","__typename":"TitleText"},"originalTitleText":{"text":"Alien
+        Wars: Judgement Day","__typename":"TitleText"},"releaseYear":{"year":2024,"endYear":null,"__typename":"YearRange"},"releaseDate":{"day":29,"month":12,"year":2024,"__typename":"ReleaseDate"}},{"_id":"61e58e44a66e596423445707","id":"tt10521010","primaryImage":{"id":"rm4127568385","width":792,"height":1080,"url":"https://m.media-amazon.com/images/M/MV5BYWQzYTFlZjgtNjIyNi00MGQ2LTg3NmQtOGQ0NTIzMGY5MmU5XkEyXkFqcGc@._V1_.jpg","caption":{"plainText":"Dante
+        Alighieri, Boris Acosta, and Dino Di Durante in The Divine Comedy: Inferno,
+        Purgatory and Paradise (2024)","__typename":"Markdown"},"__typename":"Image"},"titleType":{"displayableProperty":{"value":{"plainText":"TV
+        Series","__typename":"Markdown"},"__typename":"DisplayableTitleTypeProperty"},"text":"TV
+        Series","id":"tvSeries","isSeries":true,"isEpisode":false,"categories":[{"value":"tv","__typename":"TitleTypeCategory"}],"canHaveEpisodes":true,"__typename":"TitleType"},"titleText":{"text":"The
+        Divine Comedy: Inferno, Purgatory and Paradise","__typename":"TitleText"},"originalTitleText":{"text":"The
+        Divine Comedy: Inferno, Purgatory and Paradise","__typename":"TitleText"},"releaseYear":{"year":2024,"endYear":null,"__typename":"YearRange"},"releaseDate":{"day":24,"month":12,"year":2024,"__typename":"ReleaseDate"}},{"_id":"61e58ed678c012aa34447885","id":"tt10616590","primaryImage":{"id":"rm1024176641","width":1100,"height":1500,"url":"https://m.media-amazon.com/images/M/MV5BODVhZjY3MTItYjdjNi00NjFlLTg5NmUtMzdiNmEwYjY1ZTZhXkEyXkFqcGc@._V1_.jpg","caption":{"plainText":"Vittorio
+        Matteucci and Lalo Cibelli in The Divine Comedy: Inferno, Purgatory and Paradise
+        (2024)","__typename":"Markdown"},"__typename":"Image"},"titleType":{"displayableProperty":{"value":{"plainText":"TV
+        Episode","__typename":"Markdown"},"__typename":"DisplayableTitleTypeProperty"},"text":"TV
+        Episode","id":"tvEpisode","isSeries":false,"isEpisode":true,"categories":[{"value":"tv","__typename":"TitleTypeCategory"}],"canHaveEpisodes":false,"__typename":"TitleType"},"titleText":{"text":"Dark
+        Forest: Dante''s Sins. Virgil appears.","__typename":"TitleText"},"originalTitleText":{"text":"Dark
+        Forest: Dante''s Sins. Virgil appears.","__typename":"TitleText"},"releaseYear":{"year":2024,"endYear":null,"__typename":"YearRange"},"releaseDate":{"day":24,"month":12,"year":2024,"__typename":"ReleaseDate"}},{"_id":"61e58ee7b597b91eb9447de9","id":"tt10626750","primaryImage":{"id":"rm1443607041","width":792,"height":1080,"url":"https://m.media-amazon.com/images/M/MV5BODVkZTI1ZTItNzAwNC00MTRlLThlYTMtOWQxMWUwZGIyYTY3XkEyXkFqcGc@._V1_.jpg","caption":{"plainText":"Shirly
+        Brener, Armand Mastroianni, Franco Nero, Silvia Colloca, Boris Acosta, Dino
+        Di Durante, Aldo De Tata, and Lalo Cibelli in The Divine Comedy: Inferno,
+        Purgatory and Paradise (2024)","__typename":"Markdown"},"__typename":"Image"},"titleType":{"displayableProperty":{"value":{"plainText":"TV
+        Episode","__typename":"Markdown"},"__typename":"DisplayableTitleTypeProperty"},"text":"TV
+        Episode","id":"tvEpisode","isSeries":false,"isEpisode":true,"categories":[{"value":"tv","__typename":"TitleTypeCategory"}],"canHaveEpisodes":false,"__typename":"TitleType"},"titleText":{"text":"The
+        Gate of Hell","__typename":"TitleText"},"originalTitleText":{"text":"The Gate
+        of Hell","__typename":"TitleText"},"releaseYear":{"year":2024,"endYear":null,"__typename":"YearRange"},"releaseDate":{"day":24,"month":12,"year":2024,"__typename":"ReleaseDate"}},{"_id":"61e58eefd735dff3f9448043","id":"tt10631494","primaryImage":{"id":"rm587641345","width":792,"height":1080,"url":"https://m.media-amazon.com/images/M/MV5BNTEwODdiMzYtMDI2Mi00MTcxLWI5ZDEtOTI2ZDI1Y2ZhNmJkXkEyXkFqcGc@._V1_.jpg","caption":{"plainText":"Armand
+        Mastroianni, Franco Nero, Vittorio Matteucci, Boris Acosta, Aldo De Tata,
+        and Lalo Cibelli in The Divine Comedy: Inferno, Purgatory and Paradise (2024)","__typename":"Markdown"},"__typename":"Image"},"titleType":{"displayableProperty":{"value":{"plainText":"TV
+        Episode","__typename":"Markdown"},"__typename":"DisplayableTitleTypeProperty"},"text":"TV
+        Episode","id":"tvEpisode","isSeries":false,"isEpisode":true,"categories":[{"value":"tv","__typename":"TitleTypeCategory"}],"canHaveEpisodes":false,"__typename":"TitleType"},"titleText":{"text":"First
+        Circle: Limbo","__typename":"TitleText"},"originalTitleText":{"text":"First
+        Circle: Limbo","__typename":"TitleText"},"releaseYear":{"year":2024,"endYear":null,"__typename":"YearRange"},"releaseDate":{"day":24,"month":12,"year":2024,"__typename":"ReleaseDate"}},{"_id":"61e58f64a66e596423449c45","id":"tt10707852","primaryImage":{"id":"rm2834005761","width":1109,"height":1678,"url":"https://m.media-amazon.com/images/M/MV5BYTBlZWJjNzgtNjY0NS00ZWNjLThhMzktMzc2Y2JjODBkMjk1XkEyXkFqcGc@._V1_.jpg","caption":{"plainText":"Killing
+        Rainbow (2024)","__typename":"Markdown"},"__typename":"Image"},"titleType":{"displayableProperty":{"value":{"plainText":"","__typename":"Markdown"},"__typename":"DisplayableTitleTypeProperty"},"text":"Movie","id":"movie","isSeries":false,"isEpisode":false,"categories":[{"value":"movie","__typename":"TitleTypeCategory"}],"canHaveEpisodes":false,"__typename":"TitleType"},"titleText":{"text":"Killing
+        Rainbow","__typename":"TitleText"},"originalTitleText":{"text":"Killing Rainbow","__typename":"TitleText"},"releaseYear":{"year":2024,"endYear":null,"__typename":"YearRange"},"releaseDate":{"day":17,"month":12,"year":2024,"__typename":"ReleaseDate"}},{"_id":"61e59287971a4a15d6456263","id":"tt11237950","primaryImage":{"id":"rm1272953857","width":1200,"height":1772,"url":"https://m.media-amazon.com/images/M/MV5BZWVlYjlhOTAtMzVlMC00MjgxLWFlMTEtZTliM2UzMzMxMDhjXkEyXkFqcGc@._V1_.jpg","caption":{"plainText":"The
+        Accompanist Awakening (2025)","__typename":"Markdown"},"__typename":"Image"},"titleType":{"displayableProperty":{"value":{"plainText":"","__typename":"Markdown"},"__typename":"DisplayableTitleTypeProperty"},"text":"Movie","id":"movie","isSeries":false,"isEpisode":false,"categories":[{"value":"movie","__typename":"TitleTypeCategory"}],"canHaveEpisodes":false,"__typename":"TitleType"},"titleText":{"text":"The
+        Accompanist Awakening","__typename":"TitleText"},"originalTitleText":{"text":"The
+        Accompanist Awakening","__typename":"TitleText"},"releaseYear":{"year":2025,"endYear":null,"__typename":"YearRange"},"releaseDate":{"day":20,"month":12,"year":2025,"__typename":"ReleaseDate"}},{"_id":"61e59357d735dff3f94593cf","id":"tt11374514","primaryImage":{"id":"rm3753273601","width":7200,"height":10800,"url":"https://m.media-amazon.com/images/M/MV5BYTc0MzNhY2ItNjYxNS00NzI3LWEzYWYtYzljODFlNzY3OWQ2XkEyXkFqcGc@._V1_.jpg","caption":{"plainText":"Clank
+        and the Golden Scar (2024)","__typename":"Markdown"},"__typename":"Image"},"titleType":{"displayableProperty":{"value":{"plainText":"","__typename":"Markdown"},"__typename":"DisplayableTitleTypeProperty"},"text":"Movie","id":"movie","isSeries":false,"isEpisode":false,"categories":[{"value":"movie","__typename":"TitleTypeCategory"}],"canHaveEpisodes":false,"__typename":"TitleType"},"titleText":{"text":"Clank
+        and the Golden Scar","__typename":"TitleText"},"originalTitleText":{"text":"Clank
+        and the Golden Scar","__typename":"TitleText"},"releaseYear":{"year":2024,"endYear":null,"__typename":"YearRange"},"releaseDate":{"day":25,"month":12,"year":2024,"__typename":"ReleaseDate"}},{"_id":"61e5935d8a5a6a599f45973f","id":"tt11379234","primaryImage":{"id":"rm55046401","width":518,"height":691,"url":"https://m.media-amazon.com/images/M/MV5BZmQ3NWI4ZDUtMzgwNS00OTVmLWJjY2UtOTY2NzM1ZTgxNmUzXkEyXkFqcGdeQXVyNDU1ODIzMjA@._V1_.jpg","caption":{"plainText":"Aleksandra
+        Abaunza Shen, Yukina Takase, Tomoko Karina, and Hector Abaunza in Yuna (2023)","__typename":"Markdown"},"__typename":"Image"},"titleType":{"displayableProperty":{"value":{"plainText":"","__typename":"Markdown"},"__typename":"DisplayableTitleTypeProperty"},"text":"Movie","id":"movie","isSeries":false,"isEpisode":false,"categories":[{"value":"movie","__typename":"TitleTypeCategory"}],"canHaveEpisodes":false,"__typename":"TitleType"},"titleText":{"text":"Yuna","__typename":"TitleText"},"originalTitleText":{"text":"Yuna","__typename":"TitleText"},"releaseYear":{"year":2023,"endYear":null,"__typename":"YearRange"},"releaseDate":{"day":12,"month":12,"year":2024,"__typename":"ReleaseDate"}},{"_id":"61e5975278c012aa34468cdb","id":"tt12053936","primaryImage":{"id":"rm3428067841","width":1728,"height":2304,"url":"https://m.media-amazon.com/images/M/MV5BOGEzNWQ4NTMtZmU4Mi00NmJkLWJlYzUtOWFmNGRkYzAyNWM2XkEyXkFqcGc@._V1_.jpg","caption":{"plainText":"Mike
+        Breyer and Lynne Newton in Eternal Oath (2026)","__typename":"Markdown"},"__typename":"Image"},"titleType":{"displayableProperty":{"value":{"plainText":"","__typename":"Markdown"},"__typename":"DisplayableTitleTypeProperty"},"text":"Movie","id":"movie","isSeries":false,"isEpisode":false,"categories":[{"value":"movie","__typename":"TitleTypeCategory"}],"canHaveEpisodes":false,"__typename":"TitleType"},"titleText":{"text":"Eternal
+        Oath","__typename":"TitleText"},"originalTitleText":{"text":"Eternal Oath","__typename":"TitleText"},"releaseYear":{"year":2026,"endYear":null,"__typename":"YearRange"},"releaseDate":{"day":30,"month":12,"year":2026,"__typename":"ReleaseDate"}}]}'
+  recorded_at: Thu, 12 Dec 2024 04:39:35 GMT
+recorded_with: VCR 6.3.1
