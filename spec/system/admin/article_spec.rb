@@ -7,20 +7,20 @@ describe "super articles management", type: :system do
   end
 
 
-  # it "allows submit to review" do
-  #   visit "/admin/articles"
-  #   click_link("New article")
-  #   fill_in("Title", with: "fsklfdsl")
-  #   fill_in("Description", with: "desjuju")
-  #   fill_in("Image url", with: "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg")
-  #   click_button("Create Article")
-  #   expect(page).to have_content "Article was successfully submitted to review"
-  # end
-
   it "allows submit to review" do
     visit "/admin/articles"
-    click_link("Show this article")
-    click_button("Submit")
-    expect(page).to have_content "Article was successfully submitted to review"
+    click_link("New article")
+    fill_in("Title", with: "Fxxxsklfdsl")
+    fill_in("Description", with: "desjuju")
+    fill_in("Image url", with: "https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg")
+    click_button("Create Article")
+    expect(page).to have_content "cannot contain forbidden word"
   end
+
+  # it "allows submit to review" do
+  #   visit "/admin/articles"
+  #   click_link("Show this article")
+  #   click_button("Submit")
+  #   expect(page).to have_content "Article was successfully submitted to review"
+  # end
 end

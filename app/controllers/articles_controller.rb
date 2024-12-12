@@ -34,6 +34,10 @@ class ArticlesController < ApplicationController
     end
   end
 
+  def update_state
+    
+  end
+
   # PATCH/PUT /articles/1 or /articles/1.json
   def update
     respond_to do |format|
