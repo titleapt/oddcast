@@ -1,3 +1,5 @@
+require 'csv'
+
 class Content < ApplicationRecord
   belongs_to :contentable, polymorphic: true
   enum :state, { draft: 0, in_review: 1, published: 2 } do
