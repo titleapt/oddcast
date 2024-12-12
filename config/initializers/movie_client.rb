@@ -1,0 +1,1 @@
+Rails.application.config.movie_client_api_key = ENV.fetch('RAPIDAPI_KEY', 'a6ee17a7fcmshf761bb4c7b31ce4p1f5232jsnd5fcb729db65') 
