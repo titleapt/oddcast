@@ -68,4 +68,4 @@ group :test do
   gem 'webmock'
 end
 
-gem "tailwindcss-rails", "~> 3.0"
+gem "tailwindcss-rails", "~> 3.1"
